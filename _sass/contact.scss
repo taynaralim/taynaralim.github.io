@@ -1,0 +1,120 @@
+.bu-card {
+  position: relative;
+  width: 645px;
+  height: 362.8px;
+  color: #000000;
+  background-image: url("/assets/images/bu-card.jpg");
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.bu-card.title {
+  display: flex;
+  padding: 23px;
+  margin-top: 5.3vh;
+  align-items: center;
+
+  & h1, & h2 {
+    font-family: 'Ogg-Roman';
+    font-size: 2.1875rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    line-height: 1.03;
+  }
+
+  & h2 {
+    order: 2;
+    margin-left: auto;
+  }
+
+  & h2 span {
+    font-family: 'Ogg-Italic';
+  }
+}
+
+.bu-card.info {
+  padding: 22px 39px;
+  margin-top: 44.2px;
+}
+
+.site-contact {
+  position: absolute;
+  top: 22px;
+  left: 52px;
+  font-family: 'NHaasGroteskTXPro-Rg';
+
+  & p {
+    font-size: 2.375rem;
+    line-height: 1.21;
+  }
+
+  & a, & a:visited {
+    color: #000000;
+    font-size: 1.4375rem;
+    line-height: 1.22;
+    text-decoration: none;
+  }
+}
+
+.job-title {
+  position: absolute;
+  top: 55px;
+  left: 433px;
+
+  & p {
+    font-family: 'Ogg-Roman';
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.05;
+  }
+
+  & span {
+    font-family: 'Ogg-Italic';
+  }
+
+  &.reverse {
+    left: 39px;
+    top: 169px;
+  }
+
+  &.reverse p {
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+}
+
+.phone-contact {
+  position: absolute;
+  top: 143px;
+  left: 314px;
+
+  & p {
+    font-family: 'NHaasGroteskTXPro-Rg';
+    font-size: 2.25rem;
+    line-height: 1.22;
+  }
+}
+
+.email-contact {
+  position: absolute;
+  top: 267px;
+  left: 123px;
+  font-family: 'NHaasGroteskTXPro-Rg';
+
+  & p {
+    font-size: 2.375rem;
+    line-height: 1.21;
+  }
+
+  & a, & a:visited {
+    color: #000000;
+    font-size: 1.4375rem;
+    line-height: 1.22;
+    text-decoration: none;
+  }
+}
