@@ -4,7 +4,9 @@
     <div class="footer-left">
       <nav>
         <ul>
-          <li><a href="/periodics">Periodics</a></li>
+          <li>
+            {% include components/nav-link.html href="/periodics" text="Periodics" %}
+          </li>
         </ul>
       </nav>
     </div>
@@ -24,7 +26,9 @@
     <div class="footer-right">
       <nav>
         <ul>
-          <li><a href="/contact">Contact</a></li>
+          <li>
+            {% include components/nav-link.html href="/contact" text="Contact" %}
+          </li>
         </ul>
       </nav>
     </div>

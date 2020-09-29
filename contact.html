@@ -1,39 +1,38 @@
 ---
 layout: default
+permalink: /contact
 ---
 
-<div class="content">
-  <div class="bu-card title">
-    <h1>Taynara Lima</h1>
-    <h2>Graphic <span>designer</span></h2>
+<div class="bu-card title">
+  <h1>Taynara Lima</h1>
+  <h2>Graphic <span>designer</span></h2>
+</div>
+
+<div class="bu-card info">
+  <div class="site-contact">
+    <p>WEB</p>
+    <a href="{{ site.url }}">
+      {{ site.url | remove: "http://" | remove: "https://" }}
+    </a>
   </div>
 
-  <div class="bu-card info">
-    <div class="site-contact">
-      <p>WEB</p>
-      <a href="{{ site.url }}">
-        {{ site.url | remove: "http://" | remove: "https://" }}
-      </a>
-    </div>
+  <div class="job-title">
+    <p>Graphic <span>designer</span></p>
+  </div>
 
-    <div class="job-title">
-      <p>Graphic <span>designer</span></p>
-    </div>
+  <div class="job-title reverse">
+    <p><span>Graphic</span> designer</p>
+  </div>
 
-    <div class="job-title reverse">
-      <p><span>Graphic</span> designer</p>
-    </div>
+  <div class="phone-contact">
+    <p>T {{ site.phone_region }}</p>
+    <p>{{ site.phone_number }}</p>
+  </div>
 
-    <div class="phone-contact">
-      <p>T {{ site.phone_region }}</p>
-      <p>{{ site.phone_number }}</p>
-    </div>
-
-    <div class="email-contact">
-      <p>MAIL</p>
-      <a href="mailto://{{ site.email }}">
-        {{ site.email }}
-      </a>
-    </div>
+  <div class="email-contact">
+    <p>MAIL</p>
+    <a href="mailto://{{ site.email }}">
+      {{ site.email }}
+    </a>
   </div>
 </div>
