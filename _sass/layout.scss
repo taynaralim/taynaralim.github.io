@@ -1,3 +1,12 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content {
+  padding-bottom: 41px;
+}
+
 #header,
 #footer {
   height: 41px;
