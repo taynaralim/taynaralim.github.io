@@ -1,7 +1,6 @@
 #about {
-  position: fixed;
   min-width: 100%;
-  min-height: 100%;
+  min-height: calc(100vh - 82px);
   padding: 0 109px;
   background: url(/assets/images/contact-bg.png) no-repeat center center;
   background-size: cover;
@@ -9,7 +8,7 @@
 }
 
 .about-title {
-  margin-top: 203px;
+  padding: 203px 0 134px 0;
   text-align: center;
 
   & h1, & h2 {
@@ -33,7 +32,6 @@
 }
 
 .about-info {
-  margin-top: 134px;
   font-family: 'NHaasGroteskTXPro-Rg';
   font-weight: normal;
 }
@@ -87,6 +85,7 @@
 
 .about-email-me {
   margin-top: 90px;
+  margin-bottom: 50px;
   text-align: center;
 
   & button {

@@ -16,11 +16,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-.row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
 .dots-separator {
   display: block;
   width: 24px;
