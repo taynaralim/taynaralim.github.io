@@ -18,6 +18,9 @@ behance_username: TYRLFOLIO
 phone_region: "+55 011"
 phone_number: "962. 914. 536"
 
+# About settings
+location: "SP BR"
+
 # Build settings
 markdown: kramdown
 

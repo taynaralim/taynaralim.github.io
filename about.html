@@ -1,0 +1,69 @@
+---
+layout: default
+permalink: /about
+---
+
+<main id="about">
+  <div class="about-title">
+    <h1>Taynara Lima</h1>
+    <h2>Graphic <span>designer</span></h2>
+  </div>
+
+  <div class="about-info">
+
+    <div class="row">
+      <!-- first part -->
+      <div class="col about-left">
+        <span class="about-location">
+          {{ site.location }}
+        </span>
+
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="15"
+          height="15"
+          viewBox="0 0 15 15"
+        >
+          <circle cx="7" cy="7" r="7" fill="#ffffff" />
+        </svg>
+
+        <a class="about-email" href="mailto://{{ site.email }}">
+          {{ site.email }}
+        </a>
+
+        <p>for CV upon request by email please</p>
+      </div>
+      <!-- /first part -->
+
+      <!-- second part -->
+      <div class="col about-middle">
+        <img src="/assets/images/estrelinda.svg" alt="" />
+        <p>available for commissions</p>
+      </div>
+      <!-- /second part -->
+
+      <!-- third part -->
+      <div class="col about-right">
+        <p>
+          Taynara Lima or just Lim I’m an<br />
+          interdisciplinary designer based in Brazil
+        </p>
+        <div class="dots-separator"></div>
+        <p>
+          Focus on packaging, editorial & branding<br />
+          on fields of graphic design
+        </p>
+      </div>
+      <!-- /third part -->
+    </div>
+
+    <div class="row">
+      <div class="col about-email-me">
+        <a href="mailto://{{ site.email }}">
+          <button>email me</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</main>

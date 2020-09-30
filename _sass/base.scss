@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
@@ -10,4 +14,16 @@ body, header, div, ul, p,
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.dots-separator {
+  display: block;
+  width: 24px;
+  height: 7px;
+  background: url(/assets/images/dots.svg) no-repeat center center;
 }
